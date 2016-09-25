@@ -1,0 +1,33 @@
+Assignment 1 Report
+
+Name: Prayag Rajiv Shah
+
+1. Performance on the development data with 100% of the training data
+1a. spam precision: 0.993088194636439
+1b. spam recall: 0.9774149659863945
+1c. spam F1 score: 0.9851892484914975
+1d. ham precision: 0.9467265725288831
+1e. ham recall: 0.9833333333333333
+1f. ham F1 score: 0.9646827992151734
+
+2. Performance on the development data with 10% of the training data
+2a. spam precision: 0.9910162829870859
+2b. spam recall: 0.9605442176870749
+2c. spam F1 score: 0.9755423518032333
+2d. ham precision: 0.9101053936763794
+2e. ham recall: 0.9786666666666667
+2f. ham F1 score: 0.9431416639897207
+
+3. Description of enhancement(s) you tried (e.g., different approach(es) to smoothing, treating common words differently, dealing with unknown words differently):
+The enhancement technique I tried was using a list of punctuations and stop words.
+Use of stop words in order to treat common words in a different manner
+Use of punctuation to remove the redundancy
+
+
+4. Best performance results based on enhancements. Note that these could be the same or worse than the standard implementation.
+4a. spam precision: 0.9928037641848879
+4b. spam recall: 0.9760544217687075
+4c. spam F1 score: 0.9843578485181119
+4d. ham precision: 0.9436619718309859
+4e. ham recall: 0.9826666666666667
+4f. ham F1 score: 0.9627694317439582
