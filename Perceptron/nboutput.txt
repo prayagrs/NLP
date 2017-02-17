@@ -1,0 +1,14 @@
+Spam F:\Try\train\ham\0001.1999-12-10.farmer.ham.txt
+Spam F:\Try\train\ham\0003.1999-12-14.farmer.ham.txt
+Spam F:\Try\train\ham\0015.1999-12-15.farmer.ham.txt
+Spam F:\Try\train\ham\0016.1999-12-15.farmer.ham.txt
+Spam F:\Try\train\ham\0019.1999-12-15.farmer.ham.txt
+Spam F:\Try\train\ham\0020.1999-12-15.farmer.ham.txt
+Spam F:\Try\train\ham\0021.1999-12-15.farmer.ham.txt
+Spam F:\Try\train\spam\0017.2003-12-18.GP.spam.txt
+Spam F:\Try\train\spam\0032.2003-12-19.GP.spam.txt
+Spam F:\Try\train\spam\0065.2003-12-23.GP.spam.txt
+Spam F:\Try\train\spam\0069.2003-12-23.GP.spam.txt
+Spam F:\Try\train\spam\0072.2003-12-24.GP.spam.txt
+Spam F:\Try\train\spam\0073.2003-12-24.GP.spam.txt
+Spam F:\Try\train\spam\0075.2003-12-24.GP.spam.txt

@@ -1,0 +1,62 @@
+Assignment 2 Report
+
+Name:
+
+Part I.
+
+1. Performance of standard perceptron on the development data with 100% of the training data
+1a. spam precision: 0.9811269884065786
+1b. spam recall: 0.990204081632653
+1c. spam F1 score: 0.9856446370530878
+1d. ham precision: 0.975443383356071
+1e. ham recall: 0.9533333333333334  
+1f. ham F1 score: 0.964261631827377
+
+2. Performance of averaged perceptron on the development data with 100% of the training data
+2a. spam precision: 0.9853300733496333
+2b. spam recall: 0.986938775510204 
+2c. spam F1 score: 0.9861337683523654 
+2d. ham precision: 0.9678714859437751
+2e. ham recall: 0.964 
+2f. ham F1 score: 0.9659318637274549
+
+Part II.
+
+3. Performance of standard perceptron on the development data with 10% of the training data
+3a. spam precision: 0.9763165227082753
+3b. spam recall: 0.953469387755102
+3c. spam F1 score: 0.9647577092511013
+3d. ham precision: 0.8921815889029003
+3e. ham recall: 0.9433333333333334
+3f. ham F1 score: 0.9170447180816591
+
+4. Performance of averaged perceptron on the development data with 10% of the training data
+4a. spam precision: 0.9876948318293683
+4b. spam recall: 0.9828571428571429 
+4c. spam F1 score: 0.9852700490998364
+4d. ham precision: 0.958498023715415
+4e. ham recall: 0.97 
+4f. ham F1 score: 0.9642147117296223
+
+Part III. You are welcome to reuse code you wrote for assignment 1,
+but we would like to know how you handled the following tasks.
+
+5. How did you calculate precision, recall and F1 score? If you used a
+separate script, please give the name of the script and describe how
+to run it.
+Based on the classify script of Naive Bayes I calculated the precision, recall and F1 score.
+Maintained all those variables in the per_classify script and applied the same formulae as that of Naive Bayes.
+The only difference here was, classification was based on the alpha value obtained in the calculation process.
+If the value was greater than zero I classified it as spam or else ham. Comparing these values against the weight's obtained
+from the learn files the value of alpha was calculated.
+
+
+6. How did you separate 10% of the training data? If you used a
+separate script, please give the name of the script and describe how
+to run it. Explain how you or your code choose the files.
+
+I calculated the number of spam and ham files present in all the folders of the training data.
+Took the 10% of the files and based on the number selected the files from spam and ham folder.
+For both the folders I divided the 10% in three portions and based on that selected half number of files
+from top and the other half from bottom. Repeated the same technique for all the folders.
+
